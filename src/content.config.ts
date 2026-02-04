@@ -40,6 +40,7 @@ const projects = defineCollection({
     z.object({
       featured: z.boolean().optional().default(false),
       title: z.string(),
+      tagline: z.string().optional(),
       description: z.string(),
       image: image(),
       startDate: z.coerce.date(),
