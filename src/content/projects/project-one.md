@@ -1,13 +1,14 @@
 ---
-title: Project One
-description: "TODO: 1-2 sentence description of the problem, approach, and measurable outcome."
-image: '@assets/projects/placeholders/placeholder-1.png'
+title: Penetration Test
+tagline: "Actionable findings, prioritized."
+description: "Identify vulnerabilities that put your business at risk. A results oriented approach ensures no wasted time on findings that don't pose real risk."
+image: '@assets/projects/placeholders/pentest.jpg'
 startDate: 2025-01-01
 endDate: 2025-03-01
 skills:
-  - TODO - Security Strategy
-  - TODO - Risk Reduction
-  - TODO - Governance
+  - Security Strategy
+  - Vulnerability Identification
+  - Compliance
 sourceLink: https://example.com
 ---
 ## Overview

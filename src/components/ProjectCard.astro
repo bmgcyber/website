@@ -35,9 +35,10 @@ function formatPeriod(startDate: Date, endDate?: Date) {
   </figure>
   <div class="card-body">
     <h3 class="card-title">{project.data.title}</h3>
-    <time class="text-sm text-base-content/60">
-      {formatPeriod(project.data.startDate, project.data.endDate)}
-    </time>
+    <p class="text-sm text-base-content/60">
+      {project.data.tagline ||
+        formatPeriod(project.data.startDate, project.data.endDate)}
+    </p>
     <p class="text-base-content/80">{project.data.description}</p>
     <div class="flex flex-wrap gap-2 mt-2">
       {project.data.skills.map((skill) => <SkillBadge skill={skill} />)}
