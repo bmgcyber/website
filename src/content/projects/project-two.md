@@ -1,13 +1,14 @@
 ---
-title: Project Two
-description: "TODO: 1-2 sentence description of the problem, approach, and measurable outcome."
+title: Risk Advisory
+tagline: "Prioritize improvements to lower risk."
+description: "By understanding important business context, we can decide how to Accept, Mitigate, or Transfer risk."
 image: '@assets/projects/placeholders/placeholder-2.png'
 startDate: 2024-09-01
 endDate: 2024-12-01
 skills:
-  - TODO - AI Security
-  - TODO - Threat Modeling
-  - TODO - Incident Response
+  - Security Program
+  - Governance
+  - Compliance
 sourceLink: https://example.com
 ---
 ## Overview
