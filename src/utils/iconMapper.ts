@@ -21,6 +21,7 @@ import {
   Send,
   Pickaxe,
   Hammer,
+  Shield,
   Wrench,
   FolderCode,
 } from "@lucide/astro";
@@ -56,6 +57,7 @@ export type IconName =
   | "Send"
   | "Pickaxe"
   | "Hammer"
+  | "Shield"
   | "Wrench"
   | "FolderCode"
   | "GitHub"
@@ -89,6 +91,7 @@ export const iconMap: Record<IconName, any> = {
   Send,
   Pickaxe,
   Hammer,
+  Shield,
   Wrench,
   FolderCode,
   GitHub,

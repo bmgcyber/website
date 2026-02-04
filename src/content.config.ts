@@ -30,39 +30,6 @@ const hero = defineCollection({
     }),
 });
 
-// Work experience collection
-const work = defineCollection({
-  loader: glob({ pattern: "**/*.{md,mdoc,yaml}", base: "./src/content/work" }),
-  schema: ({ image }) =>
-    z.object({
-      title: z.string(),
-      subtitle: z.string(),
-      location: z.string().optional(),
-      startDate: z.coerce.date(),
-      endDate: z.coerce.date().optional(),
-      logo: image().optional(),
-      link: z.string().url().optional(),
-      skills: z.array(z.string()).optional(),
-    }),
-});
-
-// Education collection
-const education = defineCollection({
-  loader: glob({
-    pattern: "**/*.{md,mdoc,yaml}",
-    base: "./src/content/education",
-  }),
-  schema: ({ image }) =>
-    z.object({
-      title: z.string(),
-      subtitle: z.string(),
-      startDate: z.coerce.date(),
-      endDate: z.coerce.date().optional(),
-      logo: image().optional(),
-      link: z.string().url().optional(),
-    }),
-});
-
 // Projects collection
 const projects = defineCollection({
   loader: glob({
@@ -80,38 +47,6 @@ const projects = defineCollection({
       skills: z.array(z.string()),
       demoLink: z.string().url().optional(),
       sourceLink: z.string().url().optional(),
-    }),
-});
-
-// Hackathons collection
-const hackathons = defineCollection({
-  loader: glob({
-    pattern: "**/*.{md,mdoc,yaml}",
-    base: "./src/content/hackathons",
-  }),
-  schema: ({ image }) =>
-    z.object({
-      title: z.string(),
-      location: z.string(),
-      description: z.string(),
-      startDate: z.coerce.date(),
-      endDate: z.coerce.date().optional(),
-      logo: image().optional(),
-      sourceLink: z.string().url().optional(),
-    }),
-});
-
-// Blog collection
-const blog = defineCollection({
-  loader: glob({ pattern: "**/*.{md,mdoc,yaml}", base: "./src/content/blog" }),
-  schema: ({ image }) =>
-    z.object({
-      title: z.string(),
-      description: z.string(),
-      image: image(),
-      publishDate: z.coerce.date(),
-      updatedDate: z.coerce.date().optional(),
-      tags: z.array(z.string()).optional(),
     }),
 });
 
@@ -168,7 +103,7 @@ const contact = defineCollection({
     icon: z.enum(["MessageCircleCode", "Mail", "Phone"]),
     linkUrl: z.string().url(),
     linkText: z.string(),
-    footerIcon: z.enum(["Pickaxe", "Hammer", "Heart"]),
+    footerIcon: z.enum(["Pickaxe", "Hammer", "Heart", "Shield"]),
     footerText: z.string(),
     footerLinkText: z.string(),
     footerLinkUrl: z.string().url(),
@@ -177,11 +112,7 @@ const contact = defineCollection({
 
 export const collections = {
   hero,
-  work,
-  education,
   projects,
-  hackathons,
-  blog,
   about,
   general,
   contact,
