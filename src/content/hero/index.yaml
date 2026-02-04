@@ -1,10 +1,10 @@
 name: Bryan Mooney
-title: Independent Security Professional
+title: Offensive Security Professional
 description: >-
-  Independent security professional helping teams reduce real risk in all
-  aspects of IT and AI.
-avatar: '@assets/hero/avatar.png'
-location: "TODO: Based in [City, State]"
+  Offensive security professional helping teams reduce real risk through
+  targeted assessments, advisory, and training.
+avatar: '@assets/about/me.jpg'
+location: Albany, NY
 socialLinks:
   - url: mailto:bryan@bryanmooney.io
     icon: Email
