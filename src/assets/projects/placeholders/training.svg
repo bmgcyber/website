@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4e7d1"/>
+      <stop offset="100%" stop-color="#e6caa4"/>
+    </linearGradient>
+    <radialGradient id="spot" cx="0.3" cy="0.2" r="0.6">
+      <stop offset="0%" stop-color="#fff4e6"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect width="1200" height="800" fill="url(#spot)" opacity="0.9"/>
+  <rect x="140" y="140" width="920" height="520" rx="32" fill="#fff4e6" stroke="#d4b089" stroke-width="2"/>
+  <path d="M220 240H980" stroke="#c76a11" stroke-width="10" stroke-linecap="round"/>
+  <path d="M220 300H820" stroke="#d9b07a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M220 360H760" stroke="#d9b07a" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="320" cy="520" r="70" fill="#ead0ac"/>
+  <circle cx="540" cy="520" r="70" fill="#ead0ac"/>
+  <circle cx="760" cy="520" r="70" fill="#ead0ac"/>
+  <path d="M320 470v100" stroke="#4b3832" stroke-width="6" stroke-linecap="round"/>
+  <path d="M540 470v100" stroke="#4b3832" stroke-width="6" stroke-linecap="round"/>
+  <path d="M760 470v100" stroke="#4b3832" stroke-width="6" stroke-linecap="round"/>
+</svg>
