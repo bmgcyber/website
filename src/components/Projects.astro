@@ -13,27 +13,23 @@ const featuredProjects = projectEntries
 <section id="projects" class="py-20 px-4 bg-base-200">
   <div class="max-w-6xl mx-auto">
     <div class="text-center mb-12">
-      <h2 class="text-4xl font-bold mb-4">Projects</h2>
+      <h2 class="text-4xl font-bold mb-4">Offerings</h2>
       <p class="text-lg text-base-content/70">
-        Selected engagements and initiatives.
+        A sample of how I help teams reduce real-world risk.
       </p>
     </div>
 
-    {
-      featuredProjects.length === 0 ? (
-        <div class="text-center py-12">
-          <p class="text-lg text-base-content/60">
-            No featured projects yet. Check out all projects below.
-          </p>
-        </div>
-      ) : (
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {featuredProjects.map((project) => (
-            <ProjectCard project={project} />
-          ))}
-        </div>
-      )
-    }
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {featuredProjects.map((project) => (
+        <ProjectCard project={project} />
+      ))}
+    </div>
+
+    <div class="text-center mt-10">
+      <a href="/#contact" class="btn btn-primary">
+        Contact
+      </a>
+    </div>
 
   </div>
 </section>
