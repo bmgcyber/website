@@ -19,14 +19,9 @@ The name should be the same as the theme name below.
 }
 
 /* Brand overrides to push accent toward amber on both themes */
-:root {
-  --p: 34% 100% 50%;
-  --pf: 34% 100% 42%;
-  --pc: 0 0% 100%;
-}
-
+[data-theme="dark"],
 [data-theme="retro"] {
-  --p: 34% 100% 50%;
-  --pf: 34% 100% 42%;
-  --pc: 0 0% 12%;
+  --p: 0.74 0.14 70;
+  --pf: 0.64 0.14 70;
+  --pc: 0.1 0.02 70;
 }
