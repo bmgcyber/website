@@ -11,17 +11,12 @@ The name should be the same as the theme name below.
 */
 @plugin "daisyui" {
   themes:
-    dark --default,
-    retro,
-    synthwave,
-    valentine,
-    dim;
+    dark --default;
 }
 
-/* Brand overrides to push accent toward amber on both themes */
-[data-theme="dark"],
-[data-theme="retro"] {
+/* Brand overrides to push accent toward amber */
+[data-theme="dark"] {
   --p: 0.74 0.14 70;
   --pf: 0.64 0.14 70;
-  --pc: 0.1 0.02 70;
+  --pc: 0.98 0.01 80;
 }
