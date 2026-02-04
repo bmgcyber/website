@@ -3,7 +3,6 @@ import Layout from "../layouts/Layout.astro";
 import Hero from "../components/Hero.astro";
 import About from "../components/About.astro";
 import Projects from "../components/Projects.astro";
-import Contact from "../components/Contact.astro";
 import { getEntry, render } from "astro:content";
 
 // Load Hero singleton
@@ -41,7 +40,5 @@ const general = generalEntry.data;
     <!-- Projects Section -->
     {general.showProjectsSection && <Projects />}
 
-    <!-- Contact Section -->
-    {general.showContactSection && <Contact />}
   </main>
 </Layout>
