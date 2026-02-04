@@ -1,6 +1,5 @@
 ---
 title: About Me
-link: https://www.linkedin.com/in/bryan-mooney
 ---
 I've spent the last 9 years focused exclusively on offensive cybersecurity. I've ethically
 hacked organizations from local small businesses to Fortune 10 enterprises across a range of
