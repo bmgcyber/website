@@ -24,16 +24,8 @@ const FooterIcon = getIcon(contact.footerIcon as any);
       </a>
       and I'll respond whenever I can.
     </p>
-    <p class="flex items-center space-x-1 text-base-content/60">
-      <span>Copyright © {new Date().getFullYear()} - {contact.footerText}</span>
-      <a
-        class="link link-hover inline-flex justify-center items-center"
-        href={contact.footerLinkUrl}
-        target="_blank"
-      >
-        <FooterIcon class="size-3 inline-block mr-1" />
-        {contact.footerLinkText}
-      </a>
+    <p class="text-base-content/60">
+      Copyright © {new Date().getFullYear()} Bryan Mooney
     </p>
   </aside>
 </footer>
