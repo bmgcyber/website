@@ -20,3 +20,9 @@ The name should be the same as the theme name below.
   --pf: 0.64 0.14 70;
   --pc: 0.98 0.01 80;
 }
+
+/* Force amber primary buttons (override DaisyUI defaults) */
+.btn-primary {
+  --btn-color: oklch(0.74 0.14 70);
+  --btn-fg: oklch(0.98 0.01 80);
+}
