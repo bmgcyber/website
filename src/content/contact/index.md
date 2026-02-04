@@ -1,10 +1,10 @@
 ---
-icon: MessageCircleCode
-linkUrl: https://x.com/leowg
-linkText: with a direct question on X (twitter)
-footerIcon: Pickaxe
-footerText: Crafted by an Artisan
-footerLinkText: Lauro Guedes
-footerLinkUrl: https://lauroguedes.dev
+icon: Mail
+linkUrl: mailto:bryan@bryanmooney.io
+linkText: via email
+footerIcon: Shield
+footerText: Independent Security Professional
+footerLinkText: LinkedIn
+footerLinkUrl: https://www.linkedin.com/in/bryan-mooney
 ---
-Want to chat? shoot me a dm
+Want to chat? Reach me

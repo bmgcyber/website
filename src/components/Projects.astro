@@ -4,9 +4,8 @@ import ProjectCard from "./ProjectCard.astro";
 
 const projectEntries = await getCollection("projects");
 
-// Filter featured projects, sort by start date (most recent first), limit to 3
+// Sort by start date (most recent first), limit to 3
 const featuredProjects = projectEntries
-  .filter((project) => project.data.featured === true)
   .sort((a, b) => b.data.startDate.getTime() - a.data.startDate.getTime())
   .slice(0, 3);
 ---
@@ -14,10 +13,9 @@ const featuredProjects = projectEntries
 <section id="projects" class="py-20 px-4 bg-base-200">
   <div class="max-w-6xl mx-auto">
     <div class="text-center mb-12">
-      <h2 class="text-4xl font-bold mb-4">Check out my latest work</h2>
+      <h2 class="text-4xl font-bold mb-4">Projects</h2>
       <p class="text-lg text-base-content/70">
-        I've worked on a variety of projects, from simple websites to complex
-        web applications. Here are a few of my favorites.
+        Selected engagements and initiatives.
       </p>
     </div>
 
@@ -37,10 +35,5 @@ const featuredProjects = projectEntries
       )
     }
 
-    <div class="text-center mt-10">
-      <a href="/projects" class="btn btn-primary btn-outline">
-        View All Projects
-      </a>
-    </div>
   </div>
 </section>
