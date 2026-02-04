@@ -1,13 +1,14 @@
 ---
-title: Project Three
-description: "TODO: 1-2 sentence description of the problem, approach, and measurable outcome."
+title: Training
+tagline: "Threat-informed training with practical takeaways."
+description: "I deliver security awareness training that goes beyond standard curricula, using real examples of how attackers apply cutting-edge tooling and translating that into clear, actionable steps."
 image: '@assets/projects/placeholders/placeholder-3.png'
 startDate: 2024-04-01
 endDate: 2024-07-01
 skills:
-  - TODO - Governance
-  - TODO - Compliance
-  - TODO - Security Program
+  - Training
+  - Governance
+  - Security Awareness
 sourceLink: https://example.com
 ---
 ## Overview
