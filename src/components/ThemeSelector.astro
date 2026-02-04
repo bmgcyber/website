@@ -2,8 +2,8 @@
 import { Palette } from "@lucide/astro";
 
 const themes = [
-  { value: "retro", label: "Retro" },
   { value: "dark", label: "Dark" },
+  { value: "retro", label: "Retro" },
 ];
 ---
 
@@ -34,10 +34,10 @@ const themes = [
 </div>
 
 <script is:inline>
-  // Set theme on page load based on localStorage, defaulting to retro
+  // Set theme on page load based on localStorage, defaulting to dark
   function setTheme() {
     const savedTheme = localStorage.getItem("theme");
-    const theme = savedTheme || "retro";
+    const theme = savedTheme || "dark";
 
     // Apply theme to document
     document.documentElement.setAttribute("data-theme", theme);
