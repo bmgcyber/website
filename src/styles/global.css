@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
-/* 
+
+/*
 If you want use the ThemeToggle component,
 and chose the themes to light and dard,
 move the --default and --prefersdark to the themes you want
@@ -15,4 +16,17 @@ The name should be the same as the theme name below.
     synthwave,
     valentine,
     dim;
+}
+
+/* Brand overrides to push accent toward amber on both themes */
+:root {
+  --p: 34% 100% 50%;
+  --pf: 34% 100% 42%;
+  --pc: 0 0% 100%;
+}
+
+[data-theme="retro"] {
+  --p: 34% 100% 50%;
+  --pf: 34% 100% 42%;
+  --pc: 0 0% 12%;
 }
