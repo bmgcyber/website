@@ -8,15 +8,25 @@ const skillCategories = [
       "Web Application Security",
       "Network Security",
       "Red Teaming",
+      "Attack Surface Monitoring",
     ],
   },
   {
     name: "Governance & Risk",
-    skills: ["Risk Advisory", "Compliance", "Security Strategy"],
+    skills: ["Risk Advisory", "Compliance", "Security Strategy", "Threat Modeling"],
+  },
+  {
+    name: "Leadership",
+    skills: [
+      "Delivery & Operations",
+      "Team Coordination & Mentorship",
+      "Technical Advisory",
+      "Strategic Planning",
+    ],
   },
   {
     name: "Training & Education",
-    skills: ["Security Awareness Training", "Threat Modeling"],
+    skills: ["Security Awareness Training"],
   },
 ];
 ---
@@ -27,7 +37,7 @@ const skillCategories = [
       <h2 class="text-4xl font-bold mb-4">Skills</h2>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
       {
         skillCategories.map((category) => (
           <div>
