@@ -1,8 +1,4 @@
 ---
 title: About Me
 ---
-I've spent the last 9 years focused exclusively on offensive cybersecurity. I've ethically
-hacked organizations from local small businesses to Fortune 10 enterprises across a range of
-compliance environments. My work delivers clear, actionable guidance that cuts through IT
-noise and meaningfully reduces risk. I'm always exploring frontier technologies, with a
-current heavy focus on securing AI deployment and usage.
+Offensive security professional with 9 years of experience across compliance environments ranging from local small businesses to Fortune 10 enterprises. Focused on delivering clear, actionable findings that cut through noise and meaningfully reduce risk. Currently exploring frontier technologies and their security implications.
