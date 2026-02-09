@@ -3,7 +3,7 @@ icon: Mail
 linkUrl: mailto:bryan@bryanmooney.io
 linkText: via email
 footerIcon: Shield
-footerText: Independent Security Professional
+footerText: Offensive Security Consultant
 footerLinkText: LinkedIn
 footerLinkUrl: https://www.linkedin.com/in/bryan-mooney
 ---
