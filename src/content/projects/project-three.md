@@ -9,8 +9,4 @@ skills:
   - Training
   - Governance
   - Security Awareness
-sourceLink: https://example.com
 ---
-## Overview
-
-TODO: Brief project overview.

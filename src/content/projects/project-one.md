@@ -9,8 +9,4 @@ skills:
   - Security Strategy
   - Vulnerability Identification
   - Compliance
-sourceLink: https://example.com
 ---
-## Overview
-
-TODO: Brief project overview.

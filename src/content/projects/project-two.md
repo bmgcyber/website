@@ -9,8 +9,4 @@ skills:
   - Security Program
   - Governance
   - Compliance
-sourceLink: https://example.com
 ---
-## Overview
-
-TODO: Brief project overview.
